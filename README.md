@@ -89,3 +89,9 @@ You can also use the `/summarize/` POST endpoint directly:
 FastAPI automatically generates interactive API documentation. You can view it by navigating to:
 - Swagger UI: `http://127.0.0.1:8000/docs`
 - ReDoc: `http://127.0.0.1:8000/redoc`
+
+- <img width="2880" height="1630" alt="Screenshot 2026-10-02 110326" src="https://github.com/user-attachments/assets/38b47345-286b-4eba-b4d9-8b07b55576cc" />
+<img width="2880" height="1626" alt="Screenshot 2026-10-02 110454" src="https://github.com/user-attachments/assets/e339914c-2518-4fd0-a7a8-e1cf584ef1e4" />
+<img width="2880" height="1628" alt="Screenshot 2026-10-02 110556" src="https://github.com/user-attachments/assets/bce67894-c7fc-43d2-9507-26bceaedaf4a" />
+
+
