@@ -41,7 +41,19 @@ A web application that leverages the power of HuggingFace's T5 Transformer model
    *Note: Install the appropriate version of PyTorch for your system (CUDA/MPS).*
 
 4. **Model Setup:**
-   The application expects the T5 model and tokenizer to be saved in a `./saved_model` directory. Make sure you have downloaded or trained the model and placed it there before running.
+   The application expects the T5 model and tokenizer to be saved in a `./saved_model` directory. If you haven't trained your own model, you can download a pre-trained model (like `t5-small`) using a quick Python script:
+
+   ```python
+   from transformers import T5ForConditionalGeneration, T5Tokenizer
+   
+   model_name = "t5-small"
+   model = T5ForConditionalGeneration.from_pretrained(model_name)
+   tokenizer = T5Tokenizer.from_pretrained(model_name)
+   
+   model.save_pretrained("./saved_model")
+   tokenizer.save_pretrained("./saved_model")
+   ```
+   Run this code once to populate the `./saved_model` directory before starting the application.
 
 ## Usage
 
